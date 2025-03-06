@@ -1,0 +1,52 @@
+{
+  "companies": [
+    {
+      "id": "1234",
+      "name": "Nintendo",
+      "location": "Japón",
+      "foundedIn": 1889
+    },
+    {
+      "id": "2345",
+      "name": "Sony",
+      "location": "Japón",
+      "foundedIn": 1946
+    },
+    {
+      "id": "3456",
+      "name": "Microsoft",
+      "location": "US",
+      "foundedIn": 1975
+    }
+  ],
+  "games": [
+    {
+      "title": "Dark Souls",
+      "category": "Dark Fantasy",
+      "rating": null,
+      "companyId": "1234",
+      "id": "abcd"
+    },
+    {
+      "id": "bcde",
+      "title": "Animal Crossing",
+      "category": "Sim",
+      "rating": null,
+      "companyId": "1234"
+    },
+    {
+      "id": "owih",
+      "title": "God of War",
+      "category": "Action",
+      "rating": null,
+      "companyId": "2345"
+    },
+    {
+      "title": "Avowed",
+      "category": "RPG",
+      "rating": 9,
+      "companyId": "3456",
+      "id": "QhstSkI"
+    }
+  ]
+}
