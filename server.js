@@ -1,5 +1,6 @@
 // process.loadEnvFile() // esto permite a node acceder a las variables .env
 // require('dotenv').config()
+
 // const fs = require("fs")
 // if (fs.existsSync('.env')) {
   process.loadEnvFile();

@@ -12,5 +12,6 @@
   "description": "",
   "dependencies": {
     "json-server": "^0.17.3"
-  }
+  },
+  "engines": { "node": "22.11.0" }
 }
