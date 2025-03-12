@@ -1,52 +1,31 @@
 {
-  "companies": [
+  "projects": [
     {
-      "id": "1234",
-      "name": "Nintendo",
-      "location": "Japón",
-      "foundedIn": 1889
+      "id": "1",
+      "title": "Module 2 Project",
+      "description": "Module 2 project - Integrate a React app with backend."
     },
     {
-      "id": "2345",
-      "name": "Sony",
-      "location": "Japón",
-      "foundedIn": 1946
-    },
-    {
-      "id": "3456",
-      "name": "Microsoft",
-      "location": "US",
-      "foundedIn": 1975
+      "id": "2",
+      "title": "Module 3 Project",
+      "description": "Create a full-stack application using MERN stack."
     }
   ],
-  "games": [
+  "tasks": [
     {
-      "title": "Dark Souls",
-      "category": "Dark Fantasy",
-      "rating": null,
-      "companyId": "1234",
-      "id": "abcd"
+      "id": "1",
+      "projectId": "1",
+      "description": "Use Vite to create a basic React app"
     },
     {
-      "id": "bcde",
-      "title": "Animal Crossing",
-      "category": "Sim",
-      "rating": null,
-      "companyId": "1234"
+      "id": "2",
+      "projectId": "1",
+      "description": "Install React Router and setup routes"
     },
     {
-      "id": "owih",
-      "title": "God of War",
-      "category": "Action",
-      "rating": null,
-      "companyId": "2345"
-    },
-    {
-      "title": "Avowed",
-      "category": "RPG",
-      "rating": 9,
-      "companyId": "3456",
-      "id": "QhstSkI"
+      "id": "3",
+      "projectId": "2",
+      "description": "Create a form with 5 input fields"
     }
   ]
 }
