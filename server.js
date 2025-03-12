@@ -1,11 +1,11 @@
 // process.loadEnvFile() // esto permite a node acceder a las variables .env
 // require('dotenv').config()
-const fs = require("fs")
-if (fs.existsSync('.env')) {
+// const fs = require("fs")
+// if (fs.existsSync('.env')) {
   process.loadEnvFile();
-} else {
-  console.warn(".env file not found, using default environment variables.");
-}
+// } else {
+//   console.warn(".env file not found, using default environment variables.");
+// }
 
 const jsonServer = require("json-server")
 
