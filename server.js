@@ -1,4 +1,5 @@
-process.loadEnvFile() // esto permite a node acceder a las variables .env
+// process.loadEnvFile() // esto permite a node acceder a las variables .env
+require('dotenv').config()
 
 const jsonServer = require("json-server")
 
